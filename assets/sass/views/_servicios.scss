@@ -1,0 +1,14 @@
+/* Main Section Servicios */
+
+.servicios {
+    background-image: linear-gradient(to right, black, grey);
+    width: 100%;
+    gap: map-get($spacings, xlarge);
+    align-items: flex-start;
+    padding: 0 2em;
+
+    .list-group {
+        font-size: 1.3em;
+    }
+}
+

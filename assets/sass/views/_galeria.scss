@@ -1,0 +1,9 @@
+/* Main Section Galeria */
+
+.galeria {
+    @include flex(row, space-between, center);
+    background-image: linear-gradient(to right, black, grey);
+    gap: map-get($spacings, xlarge);
+    align-items: center;
+    padding: 0 2em;
+}

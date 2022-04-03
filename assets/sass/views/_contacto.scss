@@ -1,0 +1,10 @@
+/* Main Section Contacto */
+
+.contacto {
+    @include flex(row, space-between, center);
+    background-image: linear-gradient(to right, black, grey);
+    gap: map-get($spacings, xlarge);
+    width: 100%;
+    align-items: center;
+    padding: 10px 2em;
+}
